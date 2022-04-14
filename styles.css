@@ -1,0 +1,44 @@
+* {
+padding: 0;
+margin: 0;
+
+}
+.intro {
+    background: url(./img/123.jpg);
+    height: 810px;
+    width: 100vh;
+    color: white;
+    background-size: 100%;
+    background-position: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.cards-section {
+    padding: 155px;
+    color: beige;
+
+}
+#cards-section-header{
+    margin: 0 0 0 12px;
+}
+
+.speakers-section {
+    background-color: #d3d3d3;
+    height: 400px;
+}
+
+.partner-section {
+    background-color: #232a31;
+    height: 200px;
+}
+
+footer {
+    background: #d3d3d3;
+    height: 400px;
+}
