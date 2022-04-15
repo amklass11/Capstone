@@ -3,6 +3,16 @@ padding: 0;
 margin: 0;
 
 }
+body {
+
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+h1 {
+    color: white;
+}
 img {
   height: 100px;
 }
@@ -15,7 +25,7 @@ img {
 
 .intro {
     background: url(./img/123.jpg);
-    height: 810px;
+    height: auto;
     width: 100vh;
     color: white;
     background-size: 100%;
@@ -27,28 +37,66 @@ img {
     left: 0;
     bottom: 0;
     display: flex;
+    font-family: fantasy;
 }
 
 .cards-section {
     padding: 155px;
     color: beige;
+    background: url(https://summit.cckorea.org/images/base/pattern_bg.png);
+    height: auto;
 
 }
+.photo {
+    margin: 10px;
+}
+.basetxt {
+        margin: 84px 48px -76px 16px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    #intro-text {
+        font-size: 73px;
+    }
+    #club-name {
+        font-size: 60px;
+        font-family: serif;
+    }
+    p {
+        color: orangered;
+    }
 #cards-section-header{
-    margin: 0 0 0 12px;
+  margin: -74px -13px -6px 1px;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  padding-bottom: 92px;
+}
+.card-pic {
+    margin: 10px;
 }
 
 .speakers-section {
-    background-color: #d3d3d3;
-    height: 400px;
+    background-color: white;
+    height: auto;
+}
+#white {
+    color: white;
 }
 
 .partner-section {
-    background-color: #232a31;
+    background: url(https://summit.cckorea.org/images/base/pattern_bg.png);
     height: 200px;
+    
+    background-color: #232a31;
+}
+.companies {
+    margin: 10px;
+    padding: 10px;
 }
 
 footer {
-    background: #d3d3d3;
+    background: white;
     height: 400px;
 }
