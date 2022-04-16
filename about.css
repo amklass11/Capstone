@@ -27,6 +27,38 @@ body {
     height: 40px;
     width: 68px;
 }
+.padding {
+    margin: 19px;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+.activate {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 8rem;
+    margin-left: 4rem;
+    transition: all 0.5s ease;
+  }
+  .activate li {
+    text-decoration: none;
+  }
+  .padding {
+    margin: 19px;
+  }
+  
+  .pad {
+    text-decoration: none;
+    margin: 63px -59px;
+    color: white;
+  }
+  
 .headline {
   height: 1055px;
   display: flex;
@@ -38,6 +70,9 @@ body {
   border-radius: 64px;
   align-items: center;
 }
+.close-button {
+    display: none;
+  }
 .hd2 {
     color: grey;
     font-family: 'cocogoose bold';

@@ -17,28 +17,30 @@
     <body class="container-fluid">
         <header>
             <div class="row">
-                <nav class="navbar navbar-default">
+                
+                <nav class="navbar navbar-inverse">
                     <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="./index.html"><img  id="logo" src="./img/logo.jpg" alt=""></a>
-                        </div>
-                        <ul class="nav navbar-nav row" style="float: right;">
-                            <li class="active">
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="./about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#">Stone</a>
-                            </li>
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href=""><img id="logo" src="./img/logo.jpg" alt="company image"></a>
+                      </div>
+                      <div class="collapse navbar-collapse nand" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="./index.html">Stone</a></li>
+                          <li><a href="./about.html">About</a></li>
+                          <li><a href="#">Contact</a></li>
                         </ul>
+                      </div>
                     </div>
+                  </nav>
+
                 </div>
-            </nav>
+           
         </div>
 
 </header>
@@ -87,7 +89,7 @@
         </div>
 
         <div class="col-sm-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card back" style="width: 18rem;">
                 <img class="card-img-top" src="./img/happy.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -117,70 +119,8 @@
         <a class="basetxt" href="#">See the whole program</a>
     </H2>
 </div></section><section class="speakers-section">
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="col-md-3">
-                <img src="./img/d1.jpeg" class="img-circle" alt="">
-            </div>
-            <div class="col-md-4 " id="card-pic">
-                <h3>Youchi Benkler</h3>
-                <p class="mb-1">dkfkjdnfnvknfknvjkfnngkfkjgnjkkj</p>
-                <p>jnfjdfgklgkldglkfdjglkjlklk</p>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-3">
-                <img src="./img/d2.jpeg" class="img-rounded" alt="">
-            </div>
-            <div class="col-md-4">
-                <h3>Youchi Benkler</h3>
-                <p class="mb-1">dkfkjdnfnvknfknvjkfnngkfkjgnjkkj</p>
-                <p>jnfjdfgklgkldglkfdjglkjlklk</p>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-3">
-                <img src="./img/d3.jpeg" class="img-rounded" alt="">
-            </div>
-            <div class="col-md-4">
-                <h3>Youchi Benkler</h3>
-                <p class="mb-1">dkfkjdnfnvknfknvjkfnngkfkjgnjkkj</p>
-                <p>jnfjdfgklgkldglkfdjglkjlklk</p>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-3">
-                <img src="./img/d4.jpeg" class="img-rounded" alt="">
-            </div>
-            <div class="col-md-4">
-                <h3>Youchi Benkler</h3>
-                <p class="mb-1">dkfkjdnfnvknfknvjkfnngkfkjgnjkkj</p>
-                <p>jnfjdfgklgkldglkfdjglkjlklk</p>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-3">
-                <img src="./img/d5.jpeg" class="img-rounded" alt="">
-            </div>
-            <div class="col-md-4">
-                <h3>Youchi Benkler</h3>
-                <p class="mb-1">dkfkjdnfnvknfknvjkfnngkfkjgnjkkj</p>
-                <p>jnfjdfgklgkldglkfdjglkjlklk</p>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-3">
-                <img src="./img/d6.jpeg" class="img-rounded" alt="">
-            </div>
-            <div class="col-md-4">
-                <h3>Youchi Benkler</h3>
-                <p class="mb-1">dkfkjdnfnvknfknvjkfnngkfkjgnjkkj</p>
-                <p>jnfjdfgklgkldglkfdjglkjlklk</p>
-            </div>
-        </div>
+<div class="container" id="speakers">
 
-    </div>
 </div></section><section class="partner-section">
 <div class="container fluid">
     <h1 id="white">Partner</h1>
@@ -206,4 +146,7 @@
         </div>
 
     </div>
-</footer></body></html>
+</footer>
+</body>
+<script src="./scripts.js"></script>
+</html>

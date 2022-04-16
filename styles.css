@@ -1,36 +1,62 @@
 @font-face {
     font-family: 'cocogoose-light';
     src: url('https://fonts2u.com/download/cocogoose-pro-thin.font');
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'cocogoose-bold';
     src: url('http://fonts.cdnfonts.com/css/cocogoose');
-  }
-  
+}
+
 * {
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
 
 }
+
+header {
+    width: 100%;
+    background: #fff;
+    color: grey;
+}
+
 body {
     font-family: 'cocogoose-bold', serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+    width: 100vw;
 }
+
 h1 {
     color: white;
 }
+
+ul {
+    float: right;
+}
+
+.hamburger {
+    float: right;
+    height: 40px;
+    width: 39px;
+    margin-bottom: 22px;
+    color: black;
+}
+
 img {
-  height: 100px;
+    height: 100px;
 }
 
 #logo {
-  font-family: verdana;
-  font-weight: bolder;
-  font-size: 38px;
+    height: 35px;
+    width: 52px;
+}
+
+#speakers {
+    cursor: pointer;
+
 }
 
 .intro {
@@ -57,46 +83,112 @@ img {
     height: auto;
 
 }
+
 .photo {
     margin: 10px;
 }
+
 .basetxt {
-        margin: 84px 48px -76px 16px;
-        color: white;
-        display: flex;
-        justify-content: center;
-    }
-    #intro-text {
-        font-size: 73px;
-    }
-    #club-name {
-        font-size: 60px;
-        font-family: serif;
-    }
-    p {
-        color: orangered;
-    }
-#cards-section-header{
-  margin: -74px -13px -6px 1px;
-  display: flex;
-  justify-content: center;
-  width: 95%;
-  padding-bottom: 92px;
+    margin: 84px 48px -76px 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
+
+#intro-text {
+    font-size: 73px;
+}
+
+#club-name {
+    font-size: 60px;
+    font-family: serif;
+}
+
+p {
+    color: orangered;
+}
+
+.back {
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+#cards-section-header {
+    margin: -74px -13px -6px 1px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding-bottom: 92px;
+}
+
 .card-pic {
     margin: 10px;
 }
+
+nav.nae{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navblur {
+    display: block;
+    position: fixed;
+    inset: 0;
+    /* background: orangered; */
+    background: rgba(96, 112, 2550, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    backdrop-filter: blur(0.5rem);
+    transition: all 0.5s ease;
+}
+.visible {
+    display: block;
+}
+.activate {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 8rem;
+    margin-left: 4rem;
+    transition: all 0.5s ease;
+  }
+  .activate li {
+    text-decoration: none;
+  }
+  
+
+  .padding {
+    margin: 19px;
+  }
+  
+  .nand{
+      float: right;
+  }
+  
+.pad {
+    text-decoration: none;
+    margin: 63px -59px;
+    color: black;
+  }
+  
 
 .speakers-section {
     background-color: white;
     height: auto;
 }
+
 #white {
     color: white;
     display: flex;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 #black {
     color: #232a31;
 }
@@ -104,9 +196,10 @@ img {
 .partner-section {
     background: url(https://summit.cckorea.org/images/base/pattern_bg.png);
     height: 200px;
-    
+
     background-color: #232a31;
 }
+
 .companies {
     margin: 10px;
     padding: 10px;
@@ -115,4 +208,37 @@ img {
 footer {
     background: white;
     height: 111px;
+}
+.pop {
+    display: none;
+}
+
+@media (min-width: 762px) {
+    .hamburger {
+        display: none;
+    }
+    #disappear {
+        float: right;
+    }
+    .close-button {
+        display: none;
+      }
+      .mobile-menu {
+        display: none;
+      }
+      #hide {
+        display: none;
+      }
+     
+}
+
+@media (max-width: 762px) {
+    #disappear {
+        display: none;
+    }
+    .hide {
+        display: none;
+      }
+      
+
 }
