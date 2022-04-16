@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/amklass11/Capstone/issues"
   },
-  "homepage": "https://github.com/amklass11/Capstone#readme"
+  "homepage": "https://github.com/amklass11/Capstone#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
