@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'cocogoose-light';
+  src: url('https://fonts2u.com/download/cocogoose-pro-thin.font');
+}
+
+@font-face {
+  font-family: 'cocogoose-bold';
+  src: url('http://fonts.cdnfonts.com/css/cocogoose');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background: #fff;
+  color: grey;
+}
+
+body {
+  font-family: 'cocogoose-bold', serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  width: 100vw;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  float: right;
+}
+
+.hamburger {
+  float: right;
+  height: 40px;
+  width: 39px;
+  margin-bottom: 22px;
+  color: black;
+}
+
+img {
+   height: 100px;
+}
+
+#logo {
+  height: 35px;
+  width: 52px;
+}
+
+#speakers {
+  cursor: pointer;
+}
+
+.intro {
+  background: url(./img/123.jpg);
+  height: auto;
+  width: 100vh;
+  color: white;
+  background-size: 100%;
+  background-position: 100%;
+  width: auto;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  font-family: fantasy;
+}
+
+.cards-section {
+  padding: 155px;
+  color: beige;
+  background: url(https://summit.cckorea.org/images/base/pattern_bg.png);
+  height: auto;
+}
+
+.photo {
+  margin: 10px;
+}
+
+.basetxt {
+  margin: 84px 48px -76px 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#intro-text {
+  font-size: 73px;
+}
+
+#club-name {
+  font-size: 60px;
+  font-family: serif;
+}
+
+p {
+  color: orangered;
+}
+
+.back {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+
+#cards-section-header {
+  margin: -74px -13px -6px 1px;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  padding-bottom: 92px;
+}
+
+.card-pic {
+  margin: 10px;
+}
+
+nav.nae {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.speakers-section {
+    background-color: white;
+    height: auto;
+}
+
+#white {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#black {
+  color: #232a31;
+}
+
+.partner-section {
+  background: url(https://summit.cckorea.org/images/base/pattern_bg.png);
+  height: 200px;
+  background-color: #232a31;
+}
+
+.companies {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background: white;
+    height: 111px;
+}
+.pop {
+    display: none;
+}
