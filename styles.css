@@ -1,10 +1,20 @@
+@font-face {
+    font-family: 'cocogoose-light';
+    src: url('https://fonts2u.com/download/cocogoose-pro-thin.font');
+  }
+  
+  @font-face {
+    font-family: 'cocogoose-bold';
+    src: url('http://fonts.cdnfonts.com/css/cocogoose');
+  }
+  
 * {
 padding: 0;
 margin: 0;
 
 }
 body {
-
+    font-family: 'cocogoose-bold', serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -83,6 +93,12 @@ img {
 }
 #white {
     color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#black {
+    color: #232a31;
 }
 
 .partner-section {
@@ -98,5 +114,5 @@ img {
 
 footer {
     background: white;
-    height: 400px;
+    height: 111px;
 }
