@@ -1,63 +1,55 @@
 @font-face {
-    font-family: 'cocogoose-light';
-    src: url('https://fonts2u.com/download/cocogoose-pro-thin.font');
-  }
+  font-family: 'cocogoose-light';
+  src: url('https://fonts2u.com/download/cocogoose-pro-thin.font');
+}
   
-  @font-face {
-    font-family: 'cocogoose-bold';
-    src: url('http://fonts.cdnfonts.com/css/cocogoose');
-  }
+@font-face {
+  font-family: 'cocogoose-bold';
+  src: url('http://fonts.cdnfonts.com/css/cocogoose');
+}
   
 
 * {
-    padding: 0;
-    margin: 0;
-    display: block;
+  padding: 0;
+  margin: 0;
+  display: block;
 }
+
 body {
-    font-family: 'cocogoose-light', sans-serif;
-    display: flex;
-    flex-direction: column;
+  font-family: 'cocogoose-light', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+
 #headtext {
-    color: cornsilk;
-    font-family: 'cocogoose bold';
+  color: cornsilk;
+  font-family: 'cocogoose bold';
 }
+
 #logo {
-    height: 40px;
-    width: 68px;
+  height: 40px;
+  width: 68px;
 }
+
 .padding {
-    margin: 19px;
-  }
+  margin: 19px;
+}
   
-  .mobile-menu {
-    display: none;
-  }
+.mobile-menu {
+  display: none;
+}
   
 .activate {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: white;
-    font-size: 3rem;
-    font-weight: 600;
-    margin-top: 8rem;
-    margin-left: 4rem;
-    transition: all 0.5s ease;
-  }
-  .activate li {
-    text-decoration: none;
-  }
-  .padding {
-    margin: 19px;
-  }
-  
-  .pad {
-    text-decoration: none;
-    margin: 63px -59px;
-    color: white;
-  }
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 8rem;
+  margin-left: 4rem;
+  transition: all 0.5s ease;
+}
   
 .headline {
   height: 1055px;
@@ -70,91 +62,99 @@ body {
   border-radius: 64px;
   align-items: center;
 }
+
 .close-button {
     display: none;
-  }
+}
+
 .hd2 {
-    color: grey;
-    font-family: 'cocogoose bold';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  color: grey;
+  font-family: 'cocogoose bold';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .white-box {
-    background-color: chocolate;
-    border: 2px solid white;
-    height: auto;
-    /* width: 78%; */
-    /* margin-left: 45%; */
-    border-radius: 8px;
-    opacity: .9;
-    line-height: 2;
-    color: white;
+  background-color: chocolate;
+  border: 2px solid white;
+  height: auto;
+  border-radius: 8px;
+  opacity: .9;
+  line-height: 2;
+  color: white;
 }
+
 .company-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: lightsalmon;
-    border-radius: 8px;
-    padding: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightsalmon;
+  border-radius: 8px;
+  padding: 47px;
 }
+
 img {
-    border: 0;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5%;
+  border: 0;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
 }
+
 #flow-card {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding: 108px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 108px;
 }
 
 #boder {
-    border-bottom: 1px solid black;
-    margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
 }
-#L{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 12px 0;
-    height: 190px;
-    width: 80%;
-    background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(./img/l.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-decoration: none;
-    line-height: 24px;
+
+#L {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 12px 0;
+  height: 190px;
+  width: 80%;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(./img/l.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  line-height: 24px;
 }
+
 #Light {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 12px 0;
-    height: 190px;
-    width: 80%;
-    background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(./img/light.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-decoration: none;
-    line-height: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 12px 0;
+  height: 190px;
+  width: 80%;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(./img/light.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  line-height: 24px;
 }
+
 .section-last {
-    background-color: #272a31;
-    justify-content: center;
-    padding-bottom: 19px;
-    color: azure;
+  background-color: #272a31;
+  justify-content: center;
+  padding-bottom: 19px;
+  color: azure;
 }
-#foot{
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
+
+.foot{
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
 }
